@@ -1,0 +1,45 @@
+{
+   "intents":[
+      {
+         "tag":"saudacoes",
+         "patterns":[
+            "Oi",
+            "Olá",
+            "Bom dia",
+            "Boa tarde",
+            "Boa noite",
+            "Buenas",
+            "Daew"
+         ],
+         "responses":[
+            "Olá, tudo bem com você?",
+            "Olá, como posso ajudar você?"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"despedidas",
+         "patterns":[
+            "Tchau",
+            "Até mais",
+            "Até breve",
+            "Até mais",
+            "Até logo",
+            "Flw",
+            "Vlw",
+            "bye bye"
+         ],
+         "responses":[
+            "Tchau, foi um prazer conversar com você, volte sempre que possível!",
+            "Até mais, foi um prazer conversar com você, volte sempre que possível!",
+            "Até Breve, foi um prazer conversar com você, volte sempre que possível!"
+         ],
+         "context":[
+            ""
+         ]
+      }
+      
+   ]
+}
